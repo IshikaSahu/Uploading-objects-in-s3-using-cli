@@ -4,7 +4,9 @@
 2. Create an S3 Bucket
 
 aws s3api create-bucket --bucket your-bucket-name --region your-region --create-bucket-configuration LocationConstraint=your-region
+
 in my case
+
 aws s3api create-bucket --bucket ish-b-10 --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1
 
 ![image](https://github.com/IshikaSahu/Uploading-objects-in-s3-using-cli/assets/71627396/6600d0b2-2744-4791-9834-9f9484a9223a)
